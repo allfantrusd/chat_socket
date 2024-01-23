@@ -28,7 +28,7 @@ def handle_client(client_socket, address, clients):
 
 def main():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_address = ('192.168.87.212', 8080)
+    server_address = ('localhost', 8080)
     server_socket.bind(server_address)
     server_socket.listen(5)
 
