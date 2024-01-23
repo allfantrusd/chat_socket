@@ -26,6 +26,6 @@ def client(host: str, port: int):
         client_soc.close()
 
 if __name__ == "__main__":
-    host = "192.168.87.212"
+    host ="server addr"
     port = 8080
     client(host, port)
